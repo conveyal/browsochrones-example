@@ -1,0 +1,10 @@
+/** default styles */
+
+/** TODO unsure why the last selector is necessay. Use classes? */
+html, body, #root, #root > div, #root > div > div { 
+	width: 100%; 
+	height: 100%; 
+	padding: 0px; 
+	margin: 0px; 
+	background-color: #111;
+}
