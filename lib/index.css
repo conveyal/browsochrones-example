@@ -8,3 +8,5 @@ html, body, #root, #root > div, #root > div > div {
 	margin: 0px; 
 	background-color: #111;
 }
+
+.loading { color: #fff; }
