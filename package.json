@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "mastarm build --serve lib/index.js:build/index.js --proxy http://localhost:6001"
+    "start": "mastarm build --serve lib/index.js:build/index.js"
   },
   "standard": {
     "parser": "babel-eslint"
@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "browsochrones": "^0.5.0",
+    "debounce": "^1.0.0",
+    "debug": "^2.2.0",
     "leaflet": "^0.7.0",
     "leaflet-transitivelayer": "^0.2.0",
     "react-leaflet": "^0.12.3",
